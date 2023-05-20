@@ -16,9 +16,6 @@ from numpy import unique
 def allTheSame(elem):
     return len(unique(elem)) <= 1
 
-def split(str):
-    return [char for char in str]
-
 def izPoemRheme (list):
     tempInt = 0
     tempList = []
